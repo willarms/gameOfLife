@@ -26,6 +26,7 @@ Batch mode:
 ./playlife <input_file>
 
 Input files should contain commands (a row col to add a cell, p to play) read line by line.
+
 Controls (Interactive Mode)
 
   Key --> Action

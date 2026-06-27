@@ -22,14 +22,23 @@ Batch mode:
 ./playlife <input_file>
 Input files should contain commands (a row col to add a cell, p to play) read line by line.
 Controls (Interactive Mode)
-  Key        Action
-  a row col  Add a cell at (row, col)
-  r row col  Remove a cell at (row, col)
-  n          Advance one turn
-  p          Play continuously
-  q          Quit
+
+  Key --> Action
+  
+  a row col --> Add a cell at (row, col)
+  
+  r row col --> Remove a cell at (row, col)
+  
+  n --> Advance one turn
+  
+  p --> Play continuously
+  
+  q --> Quit
 
 # Project Structure
-playlife.c   # Main program logic
-lifefunc.c   # Game functions (display, update, add, remove)
-lifefunc.h   # Function headers
+
+playlife.c > Main program logic
+
+lifefunc.c > Game functions (display, update, add, remove)
+
+lifefunc.h > Function headers

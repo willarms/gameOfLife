@@ -1,0 +1,6 @@
+*.o
+playlife
+addup
+argtest
+greet
+.DS_Store
